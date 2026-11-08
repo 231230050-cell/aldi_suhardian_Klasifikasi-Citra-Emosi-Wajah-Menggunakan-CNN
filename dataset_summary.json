@@ -1,0 +1,60 @@
+{
+  "n_total": 49779,
+  "n_train": 39823,
+  "n_test": 9956,
+  "n_classes": 7,
+  "class_names": [
+    "angry",
+    "disgust",
+    "fear",
+    "happy",
+    "neutral",
+    "sad",
+    "surprise"
+  ],
+  "class_counts": {
+    "angry": 5920,
+    "disgust": 5920,
+    "fear": 5920,
+    "happy": 11398,
+    "neutral": 8166,
+    "sad": 6535,
+    "surprise": 5920
+  },
+  "train_counts": {
+    "angry": 4736,
+    "disgust": 4736,
+    "fear": 4736,
+    "happy": 9118,
+    "neutral": 6533,
+    "sad": 5228,
+    "surprise": 4736
+  },
+  "test_counts": {
+    "angry": 1184,
+    "disgust": 1184,
+    "fear": 1184,
+    "happy": 2280,
+    "neutral": 1633,
+    "sad": 1307,
+    "surprise": 1184
+  },
+  "imbalance_ratio": 1.9253378378378379,
+  "img_size": [
+    48,
+    48
+  ],
+  "img_stats": {
+    "common_size": [
+      96,
+      96
+    ],
+    "modes": {
+      "RGB": 1500
+    },
+    "mean_brightness": 129.41986083984375,
+    "mean_contrast": 49.22300338745117,
+    "n_sampled": 1500
+  },
+  "split": "80:20"
+}
